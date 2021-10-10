@@ -94,7 +94,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/mypage') }}/{{ auth()->user()->id}}"
                                         style="cursor: pointer" >
-                                 <img src="/images/profile.png" width="30" height="30" vertical-align="middle" title="MyPage" alt="MyPage">
+                                 <img src="{{ asset ('/images/profile.png')}}" width="30" height="30" vertical-align="middle" title="MyPage" alt="MyPage">
                                 </a>
                             </li>
                             
