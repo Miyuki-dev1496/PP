@@ -55,18 +55,18 @@
        
       <div class="carousel-item active">
         <!--このホテルの画像-->
-        <img class="d-block w-80" src="/hotelImages/{{ optional($hotel)->h_img }}" x="0" y="0"  width="auto" height="300"/>
+        <img class="d-block w-80" src="{{ asset ('/hotelImages/'.$hotel->h_img ) }}" x="0" y="0"  width="auto" height="300"/>
        
         <!--<p>...</p>-->
       </div>
       
       <div class="carousel-item">
-        <img class="d-block w-80" src="/hotelImages/3hoAkcgE4zuMn9Czcwidlkj9MsnfhxMl.jpg" width="auto" height="300">
+        <img class="d-block w-80" src="{{ asset ('hotelImages/' .$hotel->h_img ) }}" width="auto" height="300">
         
         <!--<p>...</p>-->
       </div>
       <div class="carousel-item">
-         <img class="d-block w-80" src="/hotelImages/{{ $hotel['h_img'] }}" x="0" y="0"  width="auto" height="300"/>
+         <img class="d-block w-80" src="{{ asset ('/hotelImages/'.$hotel->h_img ) }}" x="0" y="0"  width="auto" height="300"/>
         
         <!--<p>...</p>-->
       </div>

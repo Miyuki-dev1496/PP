@@ -112,7 +112,7 @@
         <div class="col">
           <div class="card shadow-sm">
             <a  href="{{ url ('hotelpage/'.optional($myhotel)->id) }}">
-            <img class="bd-placeholder-img card-img-top" src="/hotelImages/{{ $myhotel->h_img }}" x="0" y="0"  width="100%" height="225">
+            <img class="bd-placeholder-img card-img-top" src="{{ asset ('/hotelImages/'.$myhotel->h_img ) }}" x="0" y="0"  width="100%" height="225">
             </a>
           </div>  
           <div class="card-body">
