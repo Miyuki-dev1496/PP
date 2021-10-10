@@ -3,7 +3,7 @@ body {
     height:100vh;
     color: #000000;
     background-color: #656665;
-    background-image: url(/images/login_bg.jpg); 
+    background-image: url( ../images/login_bg.jpg); 
     background-repeat: no-repeat;
     background-size:cover;
 
