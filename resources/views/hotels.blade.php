@@ -86,7 +86,7 @@
             <img class="bd-placeholder-img card-img-top" src="{{ asset ('/hotelImages/'.optional($hotel)->h_img ) }}" x="0" y="0"  width="100%" height="225"/>
             </a>
             <div class="card-body">
-              <p class="card-text">"{{ $hotel ['h_name']}}"</p>
+              <p class="card-text">"{{ optional($hotel)->h_name}}"</p>
                 <div class="btn-group">
                   <form action="{{ url ('hotelpage/'.optional($hotel)->id) }}">
                   <button type="POST" class="btn btn-sm btn-outline-secondary">View</button>
