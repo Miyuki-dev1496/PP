@@ -120,7 +120,7 @@
   
  
  
-  
+  @if( Auth::check() )
   <div class="container marketing" width="900px">
     <!--お気に入りに登録しているユーザーインデックス-->
      <!-- Three columns of text below the carousel -->
@@ -153,7 +153,7 @@
   </footer>
 </main>
 
-
+@endif
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
       
